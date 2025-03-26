@@ -1,0 +1,16 @@
+name: "Aktion 2025"
+description: "Une action pour la publication sur la marketplace"
+author: "Jensone"
+inputs:
+  name:
+    description: "Nom de l'utilisateur"
+    required: true
+    default: "World"
+
+runs:
+  using: "ubuntu-latest"
+  main: "entrypoint.sh"
+
+branding:
+  icon: "stats"
+  color: "yellow"
