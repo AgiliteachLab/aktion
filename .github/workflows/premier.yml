@@ -1,0 +1,21 @@
+name: "Premiere Action"
+
+on: 
+  push:
+    branches: "main"
+
+jobs:
+  saluer:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Salutation"
+      run: echo "Salut les DevOps ✌️"
+
+  aurevoir:
+    runs-on: windows-latest
+    steps:
+    - name: "Dire aurevoir"
+      run: Write-Host "À la prochaine les gens"
+
+  
+    
