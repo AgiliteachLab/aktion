@@ -8,8 +8,8 @@ inputs:
     default: "World"
 
 runs:
-  using: "ubuntu-latest"
-  main: "entrypoint.sh"
+  using: "composite"
+  main: "./entrypoint.sh"
 
 branding:
   icon: "activity"
