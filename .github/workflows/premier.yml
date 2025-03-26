@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: "Appel AKTION"
-      uses: agiliteachlab/aktion@v1.0
+      uses: agiliteachlab/aktion@v1.1
     - name: "Salutation"
       run: echo "Salut les DevOps ✌️"
 
