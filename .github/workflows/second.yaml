@@ -1,0 +1,22 @@
+name: "Seconde Action"
+
+on: 
+  push:
+    branches: "main"
+    paths: "*.md"
+
+jobs:
+  saluer:
+    runs-on: macos-latest
+    steps:
+    - name: "Salutation"
+      run: echo "Salut les gens ✌️"
+
+  aurevoir:
+    runs-on: windows-latest
+    steps:
+    - name: "Dire aurevoir"
+      run: Write-Host "À la prochaine les DevOps"
+
+  
+    
