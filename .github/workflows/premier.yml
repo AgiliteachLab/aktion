@@ -8,6 +8,8 @@ jobs:
   saluer:
     runs-on: ubuntu-latest
     steps:
+    - name: "Checkout : Récupère le dépot"
+      uses: actions/checkout@v4.2.2
     - name: "Appel AKTION"
       run: cat entrypoint.sh
     - name: "Salutation"
