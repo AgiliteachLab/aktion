@@ -12,5 +12,5 @@ runs:
   main: "entrypoint.sh"
 
 branding:
-  icon: "stats"
+  icon: "activity"
   color: "yellow"
